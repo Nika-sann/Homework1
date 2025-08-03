@@ -15,11 +15,26 @@ body {
 }
 
 .top {
-  height: 800px;
-  background-image: url(images/Rectangle\ 111002150.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;}
+    background-image:
+    url(images/Group\ 1597880565.png),
+    url(images/Star2.png),
+    url(images/Star3.png),
+    url(images/Star4.png),
+    url(images/Star5.png);
+    background-repeat: no-repeat;
+    background-color: #E1FF8F;
+    background-position: 63px 69px, 
+    calc(100% - 344px), 
+    calc(100% - 149px), 
+    153% -230px;
+    background-color: #E1FF8F;
+    width: 100%;
+    height: 800px;
+    padding-top: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+}
 
 .top__content-title {
     color: rgb(32, 32, 39);
@@ -30,8 +45,8 @@ body {
     letter-spacing: 0px;
     text-align: left;
     width: 769px;
-    margin-top: 195px;
-    margin-left: 120px;
+    padding-top: 195px;
+    padding-left: 120px;
 }
 .top__content-title-text {
     color: rgb(32, 32, 39);
@@ -40,6 +55,22 @@ body {
     font-weight: 400;
     line-height: 32px;
     width: 720px;
-    margin-top: 24px;
+    padding-top: 24px;
+    padding-left: 120px;
+}
+
+.top__tup {
+    margin-left: 120px;
+    margin-top: 48px;
+    background: rgb(32, 32, 39);
+    border: 1px solid rgb(32, 32, 39);
+    box-sizing: border-box;
+    border-radius: 60px;
+    width: 247px;
+    height: 66px;
+    font-size: 24px;
+    line-height: 141.69%;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
 
 }
