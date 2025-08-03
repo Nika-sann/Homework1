@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 800px;
+  background-image: url(images/Rectangle\ 111002150.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
+
+.top__content-title {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 769px;
+    margin-top: 195px;
+    margin-left: 120px;
+}
+.top__content-title-text {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 720px;
+    margin-top: 24px;
+
+}
