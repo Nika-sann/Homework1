@@ -9,10 +9,9 @@ body {
   font-style: normal;
 }
 
-
 .center {
-  padding-left: calc(50% - 720px);
-  padding-right: calc(50% - 720px);
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
 }
 
 .top {
@@ -101,12 +100,19 @@ body {
   max-width: 788px;
 }
 
+.games__play {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
 .img-games {
   max-height: 1060px;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 32px;
   align-items: start;
 }
@@ -115,13 +121,17 @@ body {
   display: flex;
   flex-direction: column;
   grid-column: span 4;
-  background-color: #FFFFFF ;
+  background-color: #FFFFFF;
   border-radius: 30px;
+  width: 378px;
+  height: 473px;
+  text-decoration: none;
 }
 
 .img-games__item {
   border-radius: 30px;
   height: 314px;
+  width: 378px;
 }
 
 .img-games__top {
@@ -188,6 +198,7 @@ body {
   text-align: left;
   padding: 0 36px 32px;
   max-width: 372px;
+  text-decoration: none;
 }
 
 .stone {

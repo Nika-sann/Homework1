@@ -1,0 +1,5 @@
+{
+    "liveSassCompile.settings.rootIsWorkspace": false,
+    "liveSassCompile.settings.watchOnLaunch": false,
+    "workbench.statusBar.visible": true
+}
