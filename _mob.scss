@@ -1,0 +1,326 @@
+@media (max-width: 764px) {
+    
+    .center {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    body {
+        width: 376px;
+    }
+
+    .top {
+        text-align: center;
+        background-image:
+        url(images/zvezdaminitop.png),
+        url(images/Starmini2.png),
+        url(images/Star3mini.png),
+        url(images/Starmini4.png),
+        url(images/Starmini5.png),
+        url(images/polosamini.png);
+        background-repeat: no-repeat;
+        background-position: 218px -124px, 32px 96px, 106px 69px, 310px 586px, 279px 561px, 0px 654px;
+        background-color: #E1FF8F;
+        height: 700px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;}
+
+
+    .header {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .top__content {
+        width: 296px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+
+    .top__content-title {
+        /* Добро пожаловать на мой сайт мини-игр */
+        width: 262px;
+        height: 196px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(32, 32, 39, 1);
+        font-family: Montserrat;
+        font-style: Bold;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 264px;
+    }
+
+    .top__content-title-text {
+        /* Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и приступай. */
+        width: 296px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(32, 32, 39, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: undefined;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .top__tup {
+        margin-top: 48px;
+        background: rgb(32, 32, 39, 1);
+        border: 1px solid rgb(32, 32, 39, 1);;
+        box-sizing: border-box;
+        border-radius: 60px;
+        width: 285px;
+        height: 55px;
+        font-size: 16px;
+        line-height: 141.69%;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        padding: 16px 16px 24px 24px;
+    }
+
+    .games-section {
+        display: none;
+    }
+
+
+
+    .games-mini__text-top {
+        /* Мини-игры */
+        width: 250px;
+        height: 49px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-style: Bold;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-left: 18px;
+    }
+    .games-mini__play {
+          margin-top: 48px;
+    }
+
+    .games-mini__card {
+        width: 343px; 
+        height: 100%; 
+        display: flex;
+        gap: 24px;
+    }
+
+    .games-mini__blok-right, .games-mini__blok-left {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .games-mini__blok-1 {
+        width: 343px;
+        height: 528.63px;
+    }
+
+    .games-mini__blok-2 {
+        width: 343px;
+        height: 567.63px;
+    }
+
+    .games-mini__blok-3 {
+        width: 343px;
+        height: 567.63px;
+    }
+
+    .games-mini__blok-4 {
+        width: 343px;
+        height: 528.63px;   
+    }
+
+    .games-mini__blok-5 {
+        width: 343px;
+        height: 606.63px;
+    }
+
+    .games-mini__blok-6 {
+        width: 343px;
+        height: 626.63px;
+    }
+
+    .games-mini__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 9px;
+        padding: 29.04px 29.04px 32.67px 29.04px;
+    }
+
+    .games-mini__form-1 {
+        width: 284.93px;
+        height: 182px;
+    }
+
+    .games-mini__form-2 {
+        width: 284.93px;
+        height: 221px;
+    }
+
+    .games-mini__form-3 {
+        width: 284.93px;
+        height: 221px;
+    }
+
+    .games-mini__form-4 {
+        width: 284.93px;
+        height: 182px;
+    }
+
+    .games-mini__form-5 {
+        width: 284.93px;
+        height: 260px;
+    }
+
+    .games-mini__form-6 {
+        width: 284.93px;
+        height: 280px;
+    }
+
+    .games-mini__text {
+        /* Угадай число */
+        width: 284.93px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(32, 32, 39, 1);
+        font-family: Montserrat;
+        font-style: Bold;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .games-mini__text-1 {
+        width: 284.93px;
+        height: 39px;
+    }
+
+    .games-mini__text-2 {
+        width: 284.93px;
+        height: 78px;
+    }
+
+    .games-mini__text-3 {
+        width: 284.93px;
+        height: 78px;
+    }
+
+    .games-mini__text-4 {
+        width: 284.93px;
+        height: 39px;
+    }
+
+    .games-mini__text-5 {
+        width: 284.93px;
+        height: 117px;
+    }
+
+    .games-mini__text-6 {
+        width: 284.93px;
+        height: 117px;
+    }
+
+    .games-mini__paragraf {
+        /* Попробуй угадать случайное число от 1 до 100. */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: rgba(0, 0, 0, 1);
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .games-mini__paragraf-1 {
+        width: 249px;
+        height: 40px;
+    }
+
+    .games-mini__paragraf-2 {
+        width: 233px;
+        height: 40px;
+    }
+    .games-mini__paragraf-3 {
+        width: 275px;
+        height: 40px;
+    }
+    .games-mini__paragraf-4 {
+        width: 285px;
+        height: 40px;
+    }
+    .games-mini__paragraf-5 {
+        width: 285px;
+        height: 40px;
+    }
+    .games-mini__paragraf-6 {
+        width: 285px;
+        height: 60px;
+    }
+
+    .games-mini__tup {
+        width: 285px;
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142%;
+        text-align: center;
+    }
+
+    .games-mini__item {
+        width: 343px;
+        height: 284.93px;
+    }
+
+    .footer {
+        height: 100px;
+        margin-top: 10px;
+}
+
+    .footer-text {
+        /* Все права защищены. */
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+}
