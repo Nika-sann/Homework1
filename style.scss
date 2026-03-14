@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(32, 32, 39);
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  background-image:
+    url(images/Group\ 1597880565.png),
+    url(images/Star2.png),
+    url(images/Star3.png),
+    url(images/Star4.png),
+    url(images/Star5.png),
+    url(images/Polosa.jpg);
+  background-repeat: no-repeat;
+  background-position: 854px -333px, 63px 94px, 156px 69px, 913px 801px, 884px 771px, 0px 910px;
+  background-color: #E1FF8F;
+  height: 720px;
+  padding-top: 196px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.top__content {
+  margin-bottom: 246px;
+}
+
+.top__content-title {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 769px;
+}
+
+.top__content-title-text {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 720px;
+  padding-top: 24px;
+}
+
+.top__tup {
+  margin-top: 48px;
+  background: rgb(32, 32, 39, 1);
+  border: 1px solid rgb(32, 32, 39, 1);
+  box-sizing: border-box;
+  border-radius: 60px;
+  font-size: 16px;
+  line-height: 141.69%;
+  padding: 16px 16px 24px 24px;
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.games-container {
+  background: #202027;
+  background-image:
+    url(images/Stargame1.png),
+    url(images/starminigame11.png),
+    url(images/starminigame12.png);
+  background-repeat: no-repeat;
+  background-position: 85% 5%, 6% 57%, 8% 61%;
+}
+
+
+
+.games {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 94px;
+
+}
+
+.games__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 788px;
+  padding-top: 24px;
+}
+
+.games__play {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  padding-top: 72px;
+  max-width: 1440px;
+}
+
+.games-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.img-games {
+  max-height: 1060px;
+  max-width: 1200px;
+  display: grid;
+  gap: 32px;
+  align-items: start;
+}
+
+.img-games__card-1 {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 4;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 378px;
+  height: 473px;
+  text-decoration: none;
+}
+
+.img-games__card-2 {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 4;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 378px;
+  height: 551px;
+  text-decoration: none;
+}
+
+.img-games__card-3 {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 4;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 378px;
+  height: 512px;
+  text-decoration: none;
+}
+
+.img-games__item-big {
+  border-radius: 30px;
+  height: 314px;
+  width: 378px;
+}
+
+.img-games__top {
+  margin-top: -40px;
+}
+
+.img-games__item_1 {
+  background: url(images/card1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__item_2 {
+  background: url(images/card3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__item_3 {
+  background: url(images/card5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__item_4 {
+  background: url(images/card2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__item_5 {
+  background: url(images/card4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__item_6 {
+  background: url(images/card6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+  text-decoration: none;
+}
+
+.img-games__number {
+  width: 111px;
+  height: 36px;
+  color: rgb(32, 32, 39);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: Medium;
+}
+
+.img-games__text {
+  color: rgb(32, 32, 39);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 36px 32px;
+  max-width: 372px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.games-mini__section {
+  margin-top: 46px;
+}
+
+
+.games-mini__container {
+  background-image:
+    url(images/starminigame6.png),
+    url(images/starminigame7.png),
+    url(images/starminigame8.png), url(images/starminigame10.png);
+  background-repeat: no-repeat;
+  background-position: 79% 4%, 75% 3%, 79% 93%, 75% 94%;
+}
+
+.games-mini__blok {
+  width: 1200px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 72px;
+}
+
+.games-mini__text-top {
+  /* Мини-игры */
+  width: 400px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 96px;
+}
+
+.games-mini__play {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 72px;
+}
+
+.games-mini__card {
+  /* карты с играми */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.games-mini__blok-right {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 30px;
+  box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+  background: rgba(255, 255, 255, 1);
+}
+
+.games-mini__blok-left {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 30px;
+  box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+  background: rgba(255, 255, 255, 1);
+}
+
+.games-mini__form {
+  /* карта с игрой */
+  width: 504px;
+  height: 404px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px;
+}
+
+.games-mini__text {
+  /* Угадай число */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(32, 32, 39, 1);
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.games-mini__text-1 {
+  width: 504px;
+  height: 59px;
+}
+
+.games-mini__text-2 {
+  width: 504px;
+  height: 118px;
+}
+
+.games-mini__text-3 {
+  width: 505px;
+  height: 59px;
+}
+
+.games-mini__text-4 {
+  width: 504px;
+  height: 59px;
+}
+
+.games-mini__text-5 {
+  width: 505px;
+  height: 177px;
+}
+
+.games-mini__text-6 {
+  width: 504px;
+  height: 177px;
+}
+
+.games-mini__paragraf {
+  /* Попробуй угадать случайное число от 1 до 100. */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(32, 32, 39, 1);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.games-mini__paragraf-1 {
+  width: 457px;
+  height: 64px;
+}
+
+.games-mini__paragraf-2 {
+  width: 457px;
+  height: 64px;
+}
+
+.games-mini__paragraf-3 {
+  width: 457px;
+  height: 64px;
+}
+
+.games-mini__paragraf-4 {
+  width: 476px;
+  height: 64px;
+}
+
+.games-mini__paragraf-5 {
+  width: 382px;
+  height: 64px;
+}
+
+.games-mini__paragraf-6 {
+  width: 497px;
+  height: 64px;
+}
+
+.games-mini__tup {
+  /* Играть! */
+  background: rgb(32, 32, 39);
+  border: 1px solid rgb(32, 32, 39);
+  box-sizing: border-box;
+  border-radius: 60px;
+  width: 247px;
+  height: 66px;
+  font-size: 24px;
+  line-height: 141.69%;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  margin: 28px 1px 28px;
+  font-weight: 600;
+}
+
+.games-mini__item__1 {
+  background: url(images/card11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.games-mini__item__2 {
+  background: url(images/card21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.games-mini__item__3 {
+  background: url(images/card31.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.games-mini__item__4 {
+  background: url(images/card41.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.games-mini__item__5 {
+  background: url(images/card51.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.games-mini__item__6 {
+  background: url(images/card61.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.footer {
+  height: 150px;
+  margin-top: 144px;
+  background-color: #E1FF8F;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+  /* Все права защищены. */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+@import 'mob'
